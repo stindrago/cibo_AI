@@ -77,7 +77,7 @@ function draw() {
   if(food_green[0] != null)
     EatFood(enemy_white, food_green);
   else
-    console.log("Black stops eating");
+    console.log("White stops eating");
 
   //Black
   if(food_red[0] != null)
